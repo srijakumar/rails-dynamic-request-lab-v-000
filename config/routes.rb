@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :students/:id, only: :index
+  resources :students, only: :index
 
 
 end
